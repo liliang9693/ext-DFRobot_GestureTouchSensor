@@ -1,7 +1,7 @@
 {
   "name": {
     "zh-cn": "手势识别触摸传感器",
-    "en": "Gesture & Touch Sensor"
+    "en": "Gesture Touch Sensor"
   },
   "description": {
     "zh-cn": "能够识别7种手势以及5路的触摸信号。",
@@ -35,7 +35,9 @@
         "libraries/DFRobot_Gesture_Touch/DFRobot_Gesture_Touch.cpp",
         "libraries/DFRobot_Gesture_Touch/DFRobot_Gesture_Touch.h",
         "libraries/includes.json",
-        "libraries/DFRobot_Gesture_Touch/uno/DFRobot_Gesture_Touch.cpp.o"
+        "libraries/DFRobot_Gesture_Touch/uno/DFRobot_Gesture_Touch.cpp.o",
+        "libraries/DFRobot_Gesture_Touch/mpython/DFRobot_Gesture_Touch.cpp.o",
+        "libraries/DFRobot_Gesture_Touch/microbit/DFRobot_Gesture_Touch.cpp.o"
       ]
     }
   }

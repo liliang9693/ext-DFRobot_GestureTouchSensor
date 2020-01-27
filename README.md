@@ -20,6 +20,7 @@
 ![image](https://github.com/liliang9693/ext-DFRobot_GestureTouchSensor/blob/master/arduinoC/_images/block.png)
 
 ## 示例
+![image](https://github.com/liliang9693/ext-DFRobot_GestureTouchSensor/blob/master/arduinoC/_images/example.png)
 
 ## License
 
