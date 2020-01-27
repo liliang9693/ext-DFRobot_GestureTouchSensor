@@ -40,8 +40,11 @@ namespace GestureTouchSensor {
 
             Generator.addObject("GestureObject"+ser,"DFRobot_Gesture_Touch",`DFGT(&${ser});`);
             Generator.addObject("quanjubianliang","float",`GTVar=-1;`);
-
-            Generator.addSetup("GTSerialSetup",`${ser}.begin(9600,${rx}, ${tx});`);
+            if(Generator.board === 'arduino'){
+                Generator.addSetup("GTSerialSetup",`${ser}.begin(9600);`);
+            }else if(Generator.board === 'esp32'){
+                Generator.addSetup("GTSerialSetup",`${ser}.begin(9600,${rx}, ${tx});`);
+            }
             Generator.addSetup("distance",`DFGT.setGestureDistance(10);`)
 
     }

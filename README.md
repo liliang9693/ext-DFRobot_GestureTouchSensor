@@ -2,7 +2,7 @@
 
 
 
-<img src="https://github.com/liliang9693/ext-DFRobot_GestureTouchSensor/blob/master/arduinoC/_images/featured.png" width="450" height="300" align=center>
+![](./arduinoC/_images/featured.png)
 
 ---------------------------------------------------------
 
@@ -17,10 +17,10 @@
 
 ## Blocks
 
-![image](https://github.com/liliang9693/ext-DFRobot_GestureTouchSensor/blob/master/arduinoC/_images/block.png)
+![](./arduinoC/_images/block.png)
 
 ## 示例
-![image](https://github.com/liliang9693/ext-DFRobot_GestureTouchSensor/blob/master/arduinoC/_images/example.png)
+![](./arduinoC/_images/example.png)
 
 
 
@@ -39,4 +39,5 @@ arduino uno    |             |        √      |             |
 ## 更新日志
 - V0.1.0 20200126 第一版发布
 - V0.1.1 20200127 对硬串口增加board参数屏蔽microbit中得硬串口初始化block
+- V0.1.2 20200128 修复arduion uno板上使用硬串口初始化编译出错的bug
 
