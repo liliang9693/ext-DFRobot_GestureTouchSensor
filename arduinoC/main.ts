@@ -2,7 +2,7 @@
 //% color="#AA278D" iconWidth=50 iconHeight=40
 namespace GestureTouchSensor {
 
-    
+
     //% block="GestureTouchSenso Initliallize Pin [SSER] Rx[SSTXD] Tx[SSRXD]" blockType="command"
     //% SSER.shadow="dropdown" SSER.options="SSER"
     //% SSRXD.shadow="dropdown" SSRXD.options="SSRXD"
@@ -25,7 +25,7 @@ namespace GestureTouchSensor {
             
 
     }
-
+    //% board="arduino,esp32"
     //% block="GestureTouchSensor Initliallize Pin [SER] Rx[TXD] Tx[RXD]" blockType="command"
     //% SER.shadow="dropdown" SER.options="SER"
     //% RXD.shadow="dropdown" RXD.options="RXD"

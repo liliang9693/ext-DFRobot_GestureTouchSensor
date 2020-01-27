@@ -22,6 +22,8 @@
 ## 示例
 ![image](https://github.com/liliang9693/ext-DFRobot_GestureTouchSensor/blob/master/arduinoC/_images/example.png)
 
+
+
 ## License
 
 MIT
@@ -33,3 +35,8 @@ MCU                | JavaScript    | Arduino   | MicroPython    | Remarks
 micro:bit        |             |       √       |             | 
 mpython        |             |        √      |             | 
 arduino uno    |             |        √      |             | 
+
+## 更新日志
+- V0.1.0 20200126 第一版发布
+- V0.1.1 20200127 对硬串口增加board参数屏蔽microbit中得硬串口初始化block
+
