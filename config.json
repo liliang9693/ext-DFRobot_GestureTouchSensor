@@ -7,7 +7,7 @@
     "zh-cn": "能够识别7种手势以及5路的触摸信号。",
     "en": "it can detect 7 kinds of gestures."
   },
-  "auther": "liliang",
+  "author": "liliang",
   "email": "969316753@qq.com",
   "license": "MIT",
   "isTest": false,
@@ -23,7 +23,8 @@
       "board": [
         "arduino",
         "esp32",
-        "microbit"
+        "microbit",
+        "arduinonano"
       ],
       "main": "main.ts",
       "files": [

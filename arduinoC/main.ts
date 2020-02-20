@@ -36,7 +36,7 @@ namespace GestureTouchSensor {
         let rx = parameter.RXD.code;
         let tx = parameter.TXD.code;
 
-            Generator.addInclude("includeGT","#include <DFRobot_Gesture_Touch.h>");
+            Generator.addInclude("includeGT","#include<DFRobot_Gesture_Touch.h>");
 
             Generator.addObject("GestureObject"+ser,"DFRobot_Gesture_Touch",`DFGT(&${ser});`);
             Generator.addObject("quanjubianliang","float",`GTVar=-1;`);

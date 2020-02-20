@@ -1,29 +1,27 @@
 {
 	"SER":{
-		"menu":[["Serial1","Serial1"],["Serial2","Serial2"]],
-		"default_beginSerial":"Serial1"
+		"menu":[["Serial","Serial"]],
+		"default_beginSerial":"Serial"
 	},
 	"SSER":{
-		"menu":[["softwareSerial1","softwareSerial1"],["softwareSerial2","softwareSerial2"],["softwareSerial3","softwareSerial3"],["softwareSerial4","softwareSerial4"]],
-		"default_beginSoftSerial":"softwareSerial1",
-		"default_TEST":"softwareSerial2"
+		"menu":[["softwareSerial","softwareSerial"]],
+		"default_beginSoftSerial":"softwareSerial"
 	},
 	"TXD":{
-		"menu":[["P0","P0"],["P1","P1"],["P5","P5"],["P6","P6"],["P7","P7"],["P8","P8"],["P9","P9"],["P13","P13"],["P14","P14"],["P15","P15"],["P16","P16"]],
-		"default_beginSerial":"P1"
+		"menu":[["0","0"]],
+		"default_beginSerial":"0"
 	},
-
 	"RXD":{
-		"menu":[["P0","P0"],["P1","P1"],["P2","P2"],["P3","P3"],["P4","P4"],["P5","P5"],["P6","P6"],["P7","P7"],["P8","P8"],["P9","P9"],["P10","P10"],["P11","P11"],["P12","P12"],["P13","P13"],["P14","P14"],["P15","P15"],["P16","P16"]],
-		"default_beginSerial":"P2"
+		"menu":[["1","1"]],
+		"default_beginSerial":"1"
 	},
 	"SSTXD":{
-		"menu":[["P0","P0"],["P1","P1"],["P2","P2"],["P3","P3"],["P4","P4"],["P5","P5"],["P6","P6"],["P7","P7"],["P8","P8"],["P9","P9"],["P10","P10"],["P11","P11"],["P12","P12"],["P13","P13"]],
-		"default_beginSoftSerial":"P1"
+		"menu":[["2","2"],["3","3"],["4","4"],["5","5"],["6","6"],["7","7"],["8","8"],["9","9"],["10","10"],["11","11"],["12","12"],["13","13"],["A0","A0"],["A1","A1"],["A2","A2"],["A3","A3"],["A4","A4"],["A5","A5"],["A6","A6"],["A7","A7"]],
+		"default_beginSoftSerial":"2"
 	},
 	"SSRXD":{
-		"menu":[["P0","P0"],["P1","P1"],["P2","P2"],["P3","P3"],["P4","P4"],["P5","P5"],["P6","P6"],["P7","P7"],["P8","P8"],["P9","P9"],["P10","P10"],["P11","P11"],["P12","P12"],["P13","P13"]],
-		"default_beginSoftSerial":"P2"
+		"menu":[["2","2"],["3","3"],["4","4"],["5","5"],["6","6"],["7","7"],["8","8"],["9","9"],["10","10"],["11","11"],["12","12"],["13","13"],["A0","A0"],["A1","A1"],["A2","A2"],["A3","A3"],["A4","A4"],["A5","A5"],["A6","A6"],["A7","A7"]],
+		"default_beginSoftSerial":"3"
 	},
 	"RSLT":{
 		"menu":[["DFGT_EVT_FORWARD","DFGT_EVT_FORWARD"],["DFGT_EVT_BACK","DFGT_EVT_BACK"],["DFGT_EVT_LEFT","DFGT_EVT_LEFT"],["DFGT_EVT_RIGHT","DFGT_EVT_RIGHT"],["DFGT_EVT_PULLUP","DFGT_EVT_PULLUP"],["DFGT_EVT_PULLDOWN","DFGT_EVT_PULLDOWN"],["DFGT_EVT_PULLREMOVE","DFGT_EVT_PULLREMOVE"],["DFGT_EVT_TOUCH1","DFGT_EVT_TOUCH1"],["DFGT_EVT_TOUCH2","DFGT_EVT_TOUCH2"],["DFGT_EVT_TOUCH3","DFGT_EVT_TOUCH3"],["DFGT_EVT_TOUCH4","DFGT_EVT_TOUCH4"],["DFGT_EVT_TOUCH5","DFGT_EVT_TOUCH5"]],
@@ -37,4 +35,6 @@
 		"menu":[["DFGT_FUN_ALL","DFGT_FUN_ALL"],["DFGT_FUN_FORWARD","DFGT_FUN_FORWARD"],["DFGT_FUN_BACK","DFGT_FUN_BACK"],["DFGT_FUN_LEFT","DFGT_FUN_LEFT"],["DFGT_FUN_RIGHT","DFGT_FUN_RIGHT"],["DFGT_FUN_PULLUP","DFGT_FUN_PULLUP"],["DFGT_FUN_PULLDOWN","DFGT_FUN_PULLDOWN"],["DFGT_FUN_PULLREMOVE","DFGT_FUN_PULLREMOVE"],["DFGT_FUN_TOUCH1","DFGT_FUN_TOUCH1"],["DFGT_FUN_TOUCH2","DFGT_FUN_TOUCH2"],["DFGT_FUN_TOUCH3","DFGT_FUN_TOUCH3"],["DFGT_FUN_TOUCH4","DFGT_FUN_TOUCH4"],["DFGT_FUN_TOUCH5","DFGT_FUN_TOUCH5"]],
 		"default_setEnable":"DFGT_FUN_ALL"
 	}
+
+
 }
