@@ -1,7 +1,7 @@
 {
 	"SER":{
-		"menu":[["Serial","Serial"]],
-		"default_beginSerial":"Serial"
+		"menu":[["Serial1","Serial1"]],
+		"default_beginSerial":"Serial1"
 	},
 	"SSER":{
 		"menu":[["softwareSerial","softwareSerial"]],
@@ -10,6 +10,7 @@
 	"TXD":{
 		"menu":[["1","1"]],
 		"default_beginSerial":"1"
+		
 	},
 	"RXD":{
 		"menu":[["0","0"]],

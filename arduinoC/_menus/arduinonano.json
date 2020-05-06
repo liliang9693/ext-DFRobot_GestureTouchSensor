@@ -8,20 +8,21 @@
 		"default_beginSoftSerial":"softwareSerial"
 	},
 	"TXD":{
-		"menu":[["0","0"]],
-		"default_beginSerial":"0"
-	},
-	"RXD":{
 		"menu":[["1","1"]],
 		"default_beginSerial":"1"
 	},
+	"RXD":{
+		
+		"menu":[["0","0"]],
+		"default_beginSerial":"0"
+	},
 	"SSTXD":{
 		"menu":[["2","2"],["3","3"],["4","4"],["5","5"],["6","6"],["7","7"],["8","8"],["9","9"],["10","10"],["11","11"],["12","12"],["13","13"],["A0","A0"],["A1","A1"],["A2","A2"],["A3","A3"],["A4","A4"],["A5","A5"],["A6","A6"],["A7","A7"]],
-		"default_beginSoftSerial":"2"
+		"default_beginSoftSerial":"10"
 	},
 	"SSRXD":{
 		"menu":[["2","2"],["3","3"],["4","4"],["5","5"],["6","6"],["7","7"],["8","8"],["9","9"],["10","10"],["11","11"],["12","12"],["13","13"],["A0","A0"],["A1","A1"],["A2","A2"],["A3","A3"],["A4","A4"],["A5","A5"],["A6","A6"],["A7","A7"]],
-		"default_beginSoftSerial":"3"
+		"default_beginSoftSerial":"11"
 	},
 	"RSLT":{
 		"menu":[["DFGT_EVT_FORWARD","DFGT_EVT_FORWARD"],["DFGT_EVT_BACK","DFGT_EVT_BACK"],["DFGT_EVT_LEFT","DFGT_EVT_LEFT"],["DFGT_EVT_RIGHT","DFGT_EVT_RIGHT"],["DFGT_EVT_PULLUP","DFGT_EVT_PULLUP"],["DFGT_EVT_PULLDOWN","DFGT_EVT_PULLDOWN"],["DFGT_EVT_PULLREMOVE","DFGT_EVT_PULLREMOVE"],["DFGT_EVT_TOUCH1","DFGT_EVT_TOUCH1"],["DFGT_EVT_TOUCH2","DFGT_EVT_TOUCH2"],["DFGT_EVT_TOUCH3","DFGT_EVT_TOUCH3"],["DFGT_EVT_TOUCH4","DFGT_EVT_TOUCH4"],["DFGT_EVT_TOUCH5","DFGT_EVT_TOUCH5"]],

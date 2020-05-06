@@ -4,7 +4,7 @@
 		"default_beginSerial":"Serial"
 	},
 	"SSER":{
-		"menu":[["softwareSerial1","softwareSerial1"],["softwareSerial2","softwareSerial2"],["softwareSerial3","softwareSerial3"],["softwareSerial4","softwareSerial4"]],
+		"menu":[["softwareSerial1","softwareSerial1"],["softwareSerial2","softwareSerial2"]],
 		"default_beginSoftSerial":"softwareSerial1"
 	},
 	"TXD":{
@@ -18,11 +18,11 @@
 	},
 	"SSTXD":{
 		"menu":[["P0","0"],["P1","1"],["P2","2"],["P3","3"],["P4","4"],["P5","5"],["P6","6"],["P7","7"],["P8","8"],["P9","9"],["P10","10"],["P11","11"],["P12","12"],["P13","13"],["P14","14"],["P15","15"],["P16","16"],["P17","17"],["P18","18"],["P19","19"],["P20","20"]],
-		"default_beginSoftSerial":"P1"
+		"default_beginSoftSerial":"1"
 	},
 	"SSRXD":{
 		"menu":[["P0","0"],["P1","1"],["P2","2"],["P3","3"],["P4","4"],["P5","5"],["P6","6"],["P7","7"],["P8","8"],["P9","9"],["P10","10"],["P11","11"],["P12","12"],["P13","13"],["P14","14"],["P15","15"],["P16","16"],["P17","17"],["P18","18"],["P19","19"],["P20","20"]],
-		"default_beginSoftSerial":"P2"
+		"default_beginSoftSerial":"2"
 	},
 	"RSLT":{
 		"menu":[["DFGT_EVT_FORWARD","DFGT_EVT_FORWARD"],["DFGT_EVT_BACK","DFGT_EVT_BACK"],["DFGT_EVT_LEFT","DFGT_EVT_LEFT"],["DFGT_EVT_RIGHT","DFGT_EVT_RIGHT"],["DFGT_EVT_PULLUP","DFGT_EVT_PULLUP"],["DFGT_EVT_PULLDOWN","DFGT_EVT_PULLDOWN"],["DFGT_EVT_PULLREMOVE","DFGT_EVT_PULLREMOVE"],["DFGT_EVT_TOUCH1","DFGT_EVT_TOUCH1"],["DFGT_EVT_TOUCH2","DFGT_EVT_TOUCH2"],["DFGT_EVT_TOUCH3","DFGT_EVT_TOUCH3"],["DFGT_EVT_TOUCH4","DFGT_EVT_TOUCH4"],["DFGT_EVT_TOUCH5","DFGT_EVT_TOUCH5"]],

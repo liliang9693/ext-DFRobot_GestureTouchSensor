@@ -1,0 +1,160 @@
+{
+	"SER":{
+		"menu":[["Serial1","Serial1"],["Serial2","Serial2"],["Serial3","Serial3"]],
+		"default_beginSerial":"Serial1"
+	},
+
+	"SSER":{
+		"menu":[["softwareSerial","softwareSerial"]],
+		"default_beginSoftSerial":"softwareSerial1"
+	},
+	"TXD":{
+		"menu":[
+			["18(Serial1-TX)", "18"],
+			["16(Serial2-TX)", "16"],
+			["14(Serial3-TX)", "14"]
+		],
+		"default_beginSerial":"18(Serial1-TX)"
+	},
+
+	"RXD":{
+		"menu":[
+			["19(Serial1-RX)", "19"],
+			["17(Serial2-RX)", "17"],
+			["15(Serial3-RX)", "15"]
+		],
+		"default_beginSerial":"19(Serial1-RX)"
+	},
+	"SSTXD":{
+		"menu":[
+			["0(RX)", "0"],
+			["1(TX)", "1"],
+			["2", "2"],
+			["3", "3"],
+			["4", "4"],
+			["5", "5"],
+			["6", "6"],
+			["7", "7"],
+			["8", "8"],
+			["9", "9"],
+			["10", "10"],
+			["11", "11"],
+			["12", "12"],
+			["13(LED)", "13"],
+			["14(Serial3-TX)", "14"],
+			["15(Serial3-RX)", "15"],
+			["16(Serial2-TX)", "16"],
+			["17(Serial2-RX)", "17"],
+			["18(Serial1-TX)", "18"],
+			["19(Serial1-RX)", "19"],
+			["20(SDA)", "20"],
+			["21(SCL)", "21"],
+			["22", "22"],
+			["23", "23"],
+			["24", "24"],
+			["25", "25"],
+			["26", "26"],
+			["27", "27"],
+			["28", "28"],
+			["29", "29"],
+			["30", "30"],
+			["31", "31"],
+			["32", "32"],
+			["33", "33"],
+			["34", "34"],
+			["35", "35"],
+			["36", "36"],
+			["37", "37"],
+			["38", "38"],
+			["39", "39"],
+			["40", "40"],
+			["41", "41"],
+			["42", "42"],
+			["43", "43"],
+			["44", "44"],
+			["45", "45"],
+			["46", "46"],
+			["47", "47"],
+			["48", "48"],
+			["49", "49"],
+			["50(MISO)", "50"],
+			["51(MOSI)", "51"],
+			["52(SCK)", "52"],
+			["53(SS)", "53"]
+	],
+	"default_beginSoftSerial":"10"
+	},
+	"SSRXD":{
+		"menu": [
+			["0(RX)", "0"],
+			["1(TX)", "1"],
+			["2", "2"],
+			["3", "3"],
+			["4", "4"],
+			["5", "5"],
+			["6", "6"],
+			["7", "7"],
+			["8", "8"],
+			["9", "9"],
+			["10", "10"],
+			["11", "11"],
+			["12", "12"],
+			["13(LED)", "13"],
+			["14(Serial3-TX)", "14"],
+			["15(Serial3-RX)", "15"],
+			["16(Serial2-TX)", "16"],
+			["17(Serial2-RX)", "17"],
+			["18(Serial1-TX)", "18"],
+			["19(Serial1-RX)", "19"],
+			["20(SDA)", "20"],
+			["21(SCL)", "21"],
+			["22", "22"],
+			["23", "23"],
+			["24", "24"],
+			["25", "25"],
+			["26", "26"],
+			["27", "27"],
+			["28", "28"],
+			["29", "29"],
+			["30", "30"],
+			["31", "31"],
+			["32", "32"],
+			["33", "33"],
+			["34", "34"],
+			["35", "35"],
+			["36", "36"],
+			["37", "37"],
+			["38", "38"],
+			["39", "39"],
+			["40", "40"],
+			["41", "41"],
+			["42", "42"],
+			["43", "43"],
+			["44", "44"],
+			["45", "45"],
+			["46", "46"],
+			["47", "47"],
+			["48", "48"],
+			["49", "49"],
+			["50(MISO)", "50"],
+			["51(MOSI)", "51"],
+			["52(SCK)", "52"],
+			["53(SS)", "53"]
+		],
+		"default_beginSoftSerial":"11"
+	},
+	"RSLT":{
+		"menu":[["DFGT_EVT_FORWARD","DFGT_EVT_FORWARD"],["DFGT_EVT_BACK","DFGT_EVT_BACK"],["DFGT_EVT_LEFT","DFGT_EVT_LEFT"],["DFGT_EVT_RIGHT","DFGT_EVT_RIGHT"],["DFGT_EVT_PULLUP","DFGT_EVT_PULLUP"],["DFGT_EVT_PULLDOWN","DFGT_EVT_PULLDOWN"],["DFGT_EVT_PULLREMOVE","DFGT_EVT_PULLREMOVE"],["DFGT_EVT_TOUCH1","DFGT_EVT_TOUCH1"],["DFGT_EVT_TOUCH2","DFGT_EVT_TOUCH2"],["DFGT_EVT_TOUCH3","DFGT_EVT_TOUCH3"],["DFGT_EVT_TOUCH4","DFGT_EVT_TOUCH4"],["DFGT_EVT_TOUCH5","DFGT_EVT_TOUCH5"]],
+		"default_rslt":"DFGT_EVT_FORWARD"
+	},
+	"DE":{
+		"menu":[["enable","enable"],["disable","disable"]],
+		"default_setEnable":"enable"
+	},
+	"DERSLT":{
+		"menu":[["DFGT_FUN_ALL","DFGT_FUN_ALL"],["DFGT_FUN_FORWARD","DFGT_FUN_FORWARD"],["DFGT_FUN_BACK","DFGT_FUN_BACK"],["DFGT_FUN_LEFT","DFGT_FUN_LEFT"],["DFGT_FUN_RIGHT","DFGT_FUN_RIGHT"],["DFGT_FUN_PULLUP","DFGT_FUN_PULLUP"],["DFGT_FUN_PULLDOWN","DFGT_FUN_PULLDOWN"],["DFGT_FUN_PULLREMOVE","DFGT_FUN_PULLREMOVE"],["DFGT_FUN_TOUCH1","DFGT_FUN_TOUCH1"],["DFGT_FUN_TOUCH2","DFGT_FUN_TOUCH2"],["DFGT_FUN_TOUCH3","DFGT_FUN_TOUCH3"],["DFGT_FUN_TOUCH4","DFGT_FUN_TOUCH4"],["DFGT_FUN_TOUCH5","DFGT_FUN_TOUCH5"]],
+		"default_setEnable":"DFGT_FUN_ALL"
+	}
+
+
+}

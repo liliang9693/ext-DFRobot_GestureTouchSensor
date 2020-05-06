@@ -8,7 +8,7 @@
 
 
 ## 链接
-- **本用户库加载地址:** ```https://github.com/liliang9693/ext-DFRobot_GestureTouchSensor```
+- **本用户库加载地址:** ```https://github.com/liliang9693/ext-DFRobot_GestureTouchSensor``` 或在用户库直接搜索关键词“手势”即可加载
 - **Mind+下载地址：**```http://mindplus.cc```
 
 ## 简介
@@ -43,4 +43,5 @@ arduino uno    |             |        √      |             |
 - V0.1.0 20200126 第一版发布
 - V0.1.1 20200127 对硬串口增加board参数屏蔽microbit中得硬串口初始化block
 - V0.1.2 20200128 修复arduion uno板上使用硬串口初始化编译出错的bug
+- V0.1.3 20200506 增加对leonardo和maega2560的支持
 

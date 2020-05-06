@@ -1,6 +1,6 @@
 {
-    "GestureTouchSensor.beginSoftSerial|block": "手势传感器 初始化为[SSER] Rx(绿)[SSTXD] Tx(蓝) [SSRXD]",
-    "GestureTouchSensor.beginSerial|block": "手势传感器 初始化为[SER] Rx(绿)[TXD] Tx(蓝) [RXD]",
+    "GestureTouchSensor.beginSoftSerial|block": "手势传感器 初始化为[SSER] Rx[SSRXD] Tx[SSTXD]",
+    "GestureTouchSensor.beginSerial|block": "手势传感器 初始化为[SER] Rx[RXD] Tx[TXD]",
     "GestureTouchSensor.readSensor|block": "手势传感器 读取刷新一次数据",
     "GestureTouchSensor.rslt|block": "手势传感器 [RSLT] 被触发？",
     "GestureTouchSensor.setDistence|block": "手势传感器 设置识别距离为[DT] 厘米",
@@ -36,10 +36,18 @@
     "GestureTouchSensor.SER.Serial|menu": "硬串口",
     "GestureTouchSensor.SER.Serial1|menu": "硬串口1",
     "GestureTouchSensor.SER.Serial2|menu": "硬串口2",
+    "GestureTouchSensor.SER.Serial3|menu": "硬串口3",
     "GestureTouchSensor.SSER.softwareSerial|menu": "软串口",
     "GestureTouchSensor.SSER.softwareSerial1|menu": "软串口1",
     "GestureTouchSensor.SSER.softwareSerial2|menu": "软串口2",
     "GestureTouchSensor.SSER.softwareSerial3|menu": "软串口3",
-    "GestureTouchSensor.SSER.softwareSerial4|menu": "软串口4"
+    "GestureTouchSensor.SSER.softwareSerial4|menu": "软串口4",
+    "GestureTouchSensor.TXD.18(Serial1-TX)|menu": "18(硬串口1-TX)",
+    "GestureTouchSensor.TXD.16(Serial2-TX)|menu": "16(硬串口2-TX)",
+    "GestureTouchSensor.TXD.14(Serial3-TX)|menu": "14(硬串口3-TX)",
+    "GestureTouchSensor.RXD.19(Serial1-RX)|menu": "19(硬串口1-RX)",
+    "GestureTouchSensor.RXD.17(Serial2-RX)|menu": "17(硬串口2-RX)",
+    "GestureTouchSensor.RXD.15(Serial3-RX)|menu": "15(硬串口3-RX)"
+    
 
 }

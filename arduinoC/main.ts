@@ -2,8 +2,8 @@
 //% color="#AA278D" iconWidth=50 iconHeight=40
 namespace GestureTouchSensor {
 
-
-    //% block="GestureTouchSenso Initliallize Pin [SSER] Rx[SSTXD] Tx[SSRXD]" blockType="command"
+    //% board="arduino,leonardo,microbit,arduinonano"
+    //% block="GestureTouchSenso Initliallize Pin [SSER] Rx[SSRXD] Tx[SSTXD]" blockType="command"
     //% SSER.shadow="dropdown" SSER.options="SSER"
     //% SSRXD.shadow="dropdown" SSRXD.options="SSRXD"
     //% SSTXD.shadow="dropdown" SSTXD.options="SSTXD"
@@ -25,8 +25,8 @@ namespace GestureTouchSensor {
             
 
     }
-    //% board="arduino,esp32"
-    //% block="GestureTouchSensor Initliallize Pin [SER] Rx[TXD] Tx[RXD]" blockType="command"
+    //% board="arduino,esp32,leonardo,mega2560,arduinonano"
+    //% block="GestureTouchSensor Initliallize Pin [SER] Rx[RXD] Tx[TXD]" blockType="command"
     //% SER.shadow="dropdown" SER.options="SER"
     //% RXD.shadow="dropdown" RXD.options="RXD"
     //% TXD.shadow="dropdown" TXD.options="TXD"
@@ -40,7 +40,7 @@ namespace GestureTouchSensor {
 
             Generator.addObject("GestureObject"+ser,"DFRobot_Gesture_Touch",`DFGT(&${ser});`);
             Generator.addObject("quanjubianliang","float",`GTVar=-1;`);
-            if(Generator.board === 'arduino'){
+            if(Generator.board === 'arduino'||Generator.board === 'leonardo'||Generator.board === 'mega2560'){
                 Generator.addSetup("GTSerialSetup",`${ser}.begin(9600);`);
             }else if(Generator.board === 'esp32'){
                 Generator.addSetup("GTSerialSetup",`${ser}.begin(9600,${rx}, ${tx});`);

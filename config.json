@@ -10,35 +10,36 @@
   "author": "liliang",
   "email": "969316753@qq.com",
   "license": "MIT",
-  "isTest": false,
   "isBoard": false,
   "id": "GestureTouchSensor",
   "platform": [
     "win"
   ],
+  "version": "0.1.3",
   "asset": {
     "arduinoC": {
       "dir": "arduinoC/",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "board": [
         "arduino",
         "esp32",
         "microbit",
-        "arduinonano"
+        "arduinonano",
+        "leonardo",
+        "mega2560"
       ],
       "main": "main.ts",
       "files": [
-        "_menus/arduino.json",
-        "_menus/esp32.json",
-        "_menus/microbit.json",
-        "_locales/zh-cn.json",
+        "_images/featured.png",
         "_images/icon.svg",
-        "libraries/DFRobot_Gesture_Touch/DFRobot_Gesture_Touch.cpp",
-        "libraries/DFRobot_Gesture_Touch/DFRobot_Gesture_Touch.h",
-        "libraries/includes.json",
-        "libraries/DFRobot_Gesture_Touch/uno/DFRobot_Gesture_Touch.cpp.o",
-        "libraries/DFRobot_Gesture_Touch/mpython/DFRobot_Gesture_Touch.cpp.o",
-        "libraries/DFRobot_Gesture_Touch/microbit/DFRobot_Gesture_Touch.cpp.o"
+        "_locales/zh-cn.json",
+        "_menus/arduino.json",
+        "_menus/arduinonano.json",
+        "_menus/esp32.json",
+        "_menus/leonardo.json",
+        "_menus/mega2560.json",
+        "_menus/microbit.json",
+        "libraries/libraries.zip"
       ]
     }
   }
